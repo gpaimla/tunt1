@@ -45,7 +45,37 @@ namespace tunt1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int b8YQGr3f = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int biBGTpH = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int DHWM9FX = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int DtUXgZd = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int eheDC1Y = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int gwIdolZ = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Icon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int OkdoG6a = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int s36wK9am = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int XD9lHWdEr = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int ZtUpfQ9 = 2130837514;
 			
 			static Drawable()
 			{
@@ -57,11 +87,42 @@ namespace tunt1
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int KW = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int carListView = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int listViewCarImage = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int manufacturer = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int model = 2131034115;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int ListViewRow = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
