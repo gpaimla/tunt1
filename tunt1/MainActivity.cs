@@ -2,6 +2,12 @@
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace tunt1
 {
@@ -15,6 +21,10 @@ namespace tunt1
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            AppCenter.Start("5b6bc696-6c5b-4ede-9d85-c79f345e88af",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("5b6bc696-6c5b-4ede-9d85-c79f345e88af", typeof(Analytics), typeof(Crashes));
 
             carListView = FindViewById<ListView>(Resource.Id.carListView);
 
